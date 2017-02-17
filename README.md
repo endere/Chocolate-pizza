@@ -1,2 +1,1 @@
-# Chocolate-pizza
-CSS exercise 
+
