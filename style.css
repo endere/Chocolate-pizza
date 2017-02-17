@@ -3,13 +3,15 @@
 }
 body{
   text-align: center;
-  margin: 50px;
+  margin: auto;
+  padding: 50px;
   margin-top: 35px;
+  max-width: 900px;
 }
 .top-box{
   display: inline-block;
   text-align: left;
-  max-width: 960px;
+  max-width: 900px;
   width: 100%;
 }
 .top-left-bunch{
@@ -25,6 +27,7 @@ body{
 }
 .upper-right-images{
   float: right;
+  letter-spacing: -1px;
 }
 img{
   margin: -1px;
@@ -40,17 +43,77 @@ img{
 }
 .main-content{
   text-align: left;
-  max-width: 960px;
   width: 100%;
-  float: right;
+  position: relative;
+  max-width: 900px;
 }
 h1{
   margin: 50px 0px 0px 0px;
   font-size: 40px;
   font-family: sans-serif;
+  letter-spacing: -2px;
 }
 h4{
   margin-top: 0px;
   font-size: 13px;
   font-weight: lighter;
+  letter-spacing: -1px;
+  color: #61686d;
+}
+.print-image{
+  font-weight: lighter;
+  font-size: 13px;
+  display: inline;
+  float: right;
+  position: relative;
+  bottom: 20px;
+  letter-spacing: -1px;
+  color: #61686d;
+}
+#main-picture{
+  margin-bottom: 20px;
+}
+p{
+    max-width: 901px;
+    min-width: 900px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+
+    text-indent: 30px;
+    color: #61686d;
+    line-height: 25px;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    /* Paragraph formatting provided by Danny McGill */
+  }
+.list{
+  background-image: url(list-bg.png);
+  padding: 20px;
+}
+ul{
+  display: inline-block;
+}
+li{
+  font-family: sans-serif;
+  list-style-image:url(bullet.jpg);
+}
+.checked-off{
+  list-style-image:url(checkbullet.jpg);
+}
+.vanessa{
+  display: inline;
+}
+#van-pic{
+  float: left;
+  margin-right: 15px;
+}
+h5{
+  font-size: 20px;
+  float: left;
+  font-weight: lighter;
+}
+#self-summary{
+  float: left;
+  position: relative;
+  bottom: 50px;
 }
